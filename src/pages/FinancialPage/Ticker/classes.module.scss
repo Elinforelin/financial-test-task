@@ -1,0 +1,59 @@
+.ticker {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nameTicker {
+    margin: 0 0 0 -10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .indicators {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    .time {
+      display: flex;
+      flex-direction: column;
+    }
+    .indicator {
+      width: 15%;
+      text-align: center;
+      margin: 0 0 10px 0;
+      padding: 5px;
+      border-radius: 5px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 20px;
+      }
+    }
+    .cancel {
+      display: flex;
+      align-items: flex-start;
+      text-align: start;
+      color: #a50e0e;
+      border: none;
+      background-color: transparent;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .negative {
+      color: #a50e0e;
+    }
+    .positive {
+      color: #137333;
+    }
+    .negativeProcent {
+      color: #a50e0e;
+      background-color: rgb(240, 193, 193);
+    }
+    .positiveProcent {
+      color: #137333;
+      background-color: rgb(217, 255, 217);
+    }
+  }
+}
